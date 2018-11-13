@@ -23,85 +23,57 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-
-
-.yannLS {
-  position: 0,0;
-
-  }
-  
-  .titrearticle{
-  
-  position: absolute;
-  width: 508px;
-  height: 59px;
-  left: 42px;
-  top: 163px;
-  
-  font-family: Lato;
+@font-face {
+  font-family: "Lato-Light";
+  src: url("Lato-Light.ttf") format("ttf");
+  font-weight: normal;
   font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  font-size: 40px;
-  
-  color: #000000;
-  
-  text-shadow: 4px 10px 40px #000000;
+}
+
+.banniere {
+  position:absolute;
+  width:1366px;
+  height:279px
+}
+
+.logohetic {
+  position:absolute;
+  width: 90px;
+  height: 82px;
+}
+ 
+  .titrearticle{
+    position:absolute;
+    left: 42px;
+    top: 163px;
+    font-size: 40px;
+    text-shadow: 4px 10px 40px #000000;
+  }
+    
+
+    
+  .articletexte1 {
+    left:42px;
+    bottom:218;
+    font-size: 20;
+    font-family:Lato;
+    text-align:justify;
   }
 
-  .banniere {
-    position: absolute;
-    width: 1366px;
-    height: 279px;
-    left: 0px;
-    top: 0px;
-    
-    background: url(affiche_reseau_baby-sitting.jpg), #C4C4C4;
-    filter: blur(4px);
+  .yannLS {
+    position:relative;
+    width: 448px;
+    height: 388px;
+    left: 892px;
+    top: 305px;
     }
-    
-    .logohetic {
-    
-    position: absolute;
-    width: 90px;
-    height: 82px;
-    left: 0px;
-    top: 0px;
-    
-    background: url(logoshetic-carre-1512382497), #FEF1DE;
-    }
-    
-    .article1 .articletexte {
-    position: absolute;
-    width: 713px;
-    height: 193px;
-    left: 42px;
-    top: 309px;
-    
+
+  .articletexte2 {
+    left:42px;
+    bottom:123;
+    font-size: 20;
     font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 20px;
-    text-align: left;
-    }
+    text-align:justify;
+
+  }
     
-    /* Cela faisait longtemps que vous nous reclamiez ce type de service et enfin le voilà ! Plus besoin de perdre du temps 
-    sur des sites douteux, grace à nous obtener un service fiable grace à son experience il sera parfait pour s'occuper de 
-    vos enfants Plus d’infos ici */
-    /*
-    position: absolute;
-    width: 657px;
-    height: 142px;
-    left: 42px;
-    top: 455px;
-    
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 20px;
-    text-align: justify;
-    
-    color: #000000;
-    */
