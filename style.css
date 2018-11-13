@@ -120,7 +120,7 @@ li:not(:last-child) {
     display: none;
   }
   
-  ul {
+  .menu {
     position: static;
     opacity: 1;
     transform: none;
@@ -143,10 +143,13 @@ h1 {
   color: #168B36;
   font-family: 'latolight';
   font-display: underline;
+  
 }
 
 h2 {
   font-family: 'latolight';
+  color: red;
+  
 }
 
 
