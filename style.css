@@ -1,3 +1,153 @@
+/*nav {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  background-color: gold;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: height 0.5s, width 0.5s, left 0.5s, bottom 0.5s, border-radius 0.3s;
+}
+
+nav.is-open {
+  height: 100vh;
+  width: 100vw;
+  border-radius: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.open-icon {
+  transition: background-color 0.3s;
+}
+
+.open-icon,
+.open-icon::before,
+.open-icon::after {
+  width: 30px;
+  height: 4px;
+  background: black;
+}
+
+.open-icon::before,
+.open-icon::after {
+  content: '';
+  display: block;
+  transition: transform 0.3s;
+}
+
+.open-icon::before {
+  transform: translateY(-8px);
+}
+
+.open-icon::after {
+  transform: translateY(4px);
+}
+
+nav.is-open .open-icon {
+  background-color: transparent;
+}
+
+nav.is-open .open-icon::before {
+  transform: translateY(2px) rotate(45deg);
+}
+
+nav.is-open .open-icon::after {
+  transform: translateY(-2px) rotate(-45deg);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  transform: translate(calc(-50vw + 40px), calc(50vh - 40px)) scale(0);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.3s;
+}
+
+nav.is-open ul {
+  transform: none;
+  opacity: 1;
+}
+
+nav:not(.is-open) ul {
+  pointer-events: none;
+}
+
+li {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+}
+
+li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+  nav {
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    width: 100%;
+  }
+  
+  nav.is-open {
+    height: 50px;
+  }
+  
+  .open {
+    display: none;
+  }
+  
+  ul {
+    position: static;
+    opacity: 1;
+    transform: none;
+    height: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  li {
+    font-size: 40px;
+  }
+  
+  li:not(:last-child) {
+    margin-bottom: 0;
+  }
+} */
+
+
 h1 {
   color: #168B36;
+  font-family: 'latolight';
+  font-display: underline;
 }
+
+h2 {
+  font-family: 'latolight';
+}
+
+
+ 
