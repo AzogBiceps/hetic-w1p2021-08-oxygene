@@ -21,8 +21,11 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
+
+
+
 body {
 	line-height: 1;
 }
@@ -208,8 +211,8 @@ h1 {
 
 
 .intro {
-color: #ffc400;
-text-shadow: 2px 2px 2px;   
+  color: #ffc400;
+  text-shadow: 2px 2px 2px;   
 }
 
 
@@ -223,7 +226,7 @@ Gris background : #ececec
 
 /*Article 1 */
 
-/*Banniere
+.banniere {
 position: absolute;
 width: 1366px;
 height: 279px;
@@ -232,8 +235,9 @@ top: 0px;
 
 background: url(affiche_reseau_baby-sitting.jpg), #C4C4C4;
 filter: blur(4px);
+}
 
-Logo TICHE
+.logohetic {
 
 position: absolute;
 width: 90px;
@@ -242,10 +246,9 @@ left: 0px;
 top: 0px;
 
 background: url(logos_hetic-mini.png), #FEF1DE;
+}
 
-/* Veuillez tous faire un accueil chaleureux a notre nouveau venu : "Yann LeScouarnec". Il a été validé par nos 
-modérateurs et permet a nos utilisateurs d'acceder a un tout nouveau service : le baby-sitting !*/ 
-/*
+.article1 .articletexte {
 position: absolute;
 width: 713px;
 height: 193px;
@@ -257,9 +260,8 @@ font-style: normal;
 font-weight: normal;
 line-height: normal;
 font-size: 20px;
-text-align: justify;
-
-color: #000000; */
+text-align: left;
+}
 
 /* Cela faisait longtemps que vous nous reclamiez ce type de service et enfin le voilà ! Plus besoin de perdre du temps 
 sur des sites douteux, grace à nous obtener un service fiable grace à son experience il sera parfait pour s'occuper de 
@@ -279,8 +281,8 @@ font-size: 20px;
 text-align: justify;
 
 color: #000000;
-/*Yann
-
+*/
+.yannLS {
 position: absolute;
 width: 448px;
 height: 388px;
@@ -288,8 +290,9 @@ left: 892px;
 top: 305px;
 
 background: url(yann.jpg), #C4C4C4;
+}
 
-/*titre/*
+.titrearticle{
 
 position: absolute;
 width: 508px;
@@ -306,5 +309,7 @@ font-size: 40px;
 color: #000000;
 
 text-shadow: 4px 10px 40px #000000;
+}
+
 
  
