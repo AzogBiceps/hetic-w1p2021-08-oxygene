@@ -5,6 +5,9 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
         <title>TICHE - Tendance Impérative à se Conduire en Héros Efficace</title>
+        <style>
+            .mySlides {display:none;}
+        </style>
     </head>
         
     <body>
@@ -21,38 +24,35 @@
                   </nav> -->
 
         </header>
+     <main>
+        <div class="w3-content w3-section" style="max-width:100%">
+            <img class="mySlides" src="oldman.jpg" style="width:100%">
+            <img class="mySlides" src="brba.jpg" style="width:100%">
+            <img class="mySlides" src="img_chicago.jpg" style="width:100%">
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
 
-        <main>
-            <div class="w3-content w3-section" style="max-width:500px">
-                <img class="mySlides" src="oldman.jpg" style="width:100%">
-                <img class="mySlides" src="brba.jpg" style="width:100%">
-                <img class="mySlides" src="img_chicago.jpg" style="width:100%">
-              </div>    
-              <style>
-                .mySlides {display:none;}
-                </style>
-
-              <script>
-                var myIndex = 0;
-                carousel();
-                
-                function carousel() {
-                    var i;
-                    var x = document.getElementsByClassName("mySlides");
-                    for (i = 0; i < x.length; i++) {
-                       x[i].style.display = "none";  
-                    }
-                    myIndex++;
-                    if (myIndex > x.length) {myIndex = 1}    
-                    x[myIndex-1].style.display = "block";  
-                    setTimeout(carousel, 2000); // Change image every 2 seconds
-                }
-                </script>
             
                 <h1>TICHE est là pour vous !</h1>
+            <intro>
                 <p>Le groupe TICHE vous fournis les services dont vous avez besoins. Retrouvez nos intervenants phares, excellant dans leurs spécialités; ils sont prêts à vous guider et vous instruire, ou tout simplement répondre à vos besoins.</p>                 
-            
-                
+            </intro>                
 
 
 

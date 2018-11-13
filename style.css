@@ -1,13 +1,58 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 /*nav {
   position: fixed;
-  bottom: 15px;
+  top: 15px;
   left: 15px;
-  background-color: gold;
+  background-color: rgba(236, 236, 236, 0.5);
   height: 50px;
   width: 50px;
   border-radius: 50%;
   overflow: hidden;
-  transition: height 0.5s, width 0.5s, left 0.5s, bottom 0.5s, border-radius 0.3s;
+  transition: height 0.5s, width 0.5s, left 0.5s, top 0.5s, border-radius 0.3s;
 }
 
 nav.is-open {
@@ -15,7 +60,7 @@ nav.is-open {
   width: 100vw;
   border-radius: 0;
   left: 0;
-  bottom: 0;
+  top: 0;
 }
 
 .open {
@@ -23,7 +68,7 @@ nav.is-open {
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 15px;
+  top: 15px;
   left: 15px;
   height: 50px;
   width: 50px;
@@ -142,16 +187,34 @@ li:not(:last-child) {
 h1 {
   color: #168B36;
   font-family: 'latolight';
-  font-display: underline;
+  text-shadow: black 0.1em 0.1em 0.2em;
   text-align: center;
-  
 }
 
-h2 {
-  font-family: 'latolight';
-  color: red;
-  
+
+
+. mySlides { 
+  width: 100%;
+  height: 100vh;
+  object-fit: cover; }
+
+.mySlides {
+  object-position: top center; }
+
+
+.intro {
+color: #168B36;  
 }
+
+
+
+  
+/*
+jaune d'hétic: #f2b900
+fond noir d'hétic : #323232
+Gris background : #ececec 
+*/
+
 
 
  
