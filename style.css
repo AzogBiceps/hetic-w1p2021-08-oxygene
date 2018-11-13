@@ -25,9 +25,18 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
+@font-face {
+  font-family: "Lato-Light";
+  src: url("Lato-Light.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 body {
-	line-height: 1;
+  line-height: 1;
+  font-family: "Lato-Light"
 }
 ol, ul {
 	list-style: none;
@@ -187,19 +196,40 @@ table {
   } */
 
 
-h1 {
-  color: #168B36;
-  font-family: 'latolight';
-  text-shadow: black 2px 2px 2px;
-  text-align: center;
+  h1 {
+    color:#168B36;
+    font-family: 'latolight';
+    text-align: center;
+  }
+  
+
+  .intro {
+    color: #ffc400;  
+		width: 300px;
+		padding: 50px;
+		margin-right: 50px;
+    position: center;
+    font-size: 25px;
+
+    }
+    
+main {
+    background-color:#323232;
+}
+
+.intros {
+	display: flex;
+	justify-content: center;
+  text-align: justify;
+
 }
 
 
 
-. mySlides { 
-  width: 100%;
-  height: 100vh;
-  object-fit: cover; }
+ .mySlides { 
+   width: 100%;
+   height: 100vh;
+   object-fit: cover; }
 
   .mySlides {
     width: 100%;
@@ -210,11 +240,6 @@ h1 {
     object-position: top center; }
 
 
-.intro {
-  color: #ffc400;
-  text-shadow: 2px 2px 2px;   
-}
-
 
 
   
@@ -222,65 +247,6 @@ h1 {
 jaune d'hétic: #ffc400
 fond noir d'hétic : #323232
 Gris background : #ececec 
-*/
-
-/*Article 1 */
-
-.banniere {
-position: absolute;
-width: 1366px;
-height: 279px;
-left: 0px;
-top: 0px;
-
-background: url(affiche_reseau_baby-sitting.jpg), #C4C4C4;
-filter: blur(4px);
-}
-
-.logohetic {
-
-position: absolute;
-width: 90px;
-height: 82px;
-left: 0px;
-top: 0px;
-
-background: url(logos_hetic-mini.png), #FEF1DE;
-}
-
-.article1 .articletexte {
-position: absolute;
-width: 713px;
-height: 193px;
-left: 42px;
-top: 309px;
-
-font-family: Lato;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 20px;
-text-align: left;
-}
-
-/* Cela faisait longtemps que vous nous reclamiez ce type de service et enfin le voilà ! Plus besoin de perdre du temps 
-sur des sites douteux, grace à nous obtener un service fiable grace à son experience il sera parfait pour s'occuper de 
-vos enfants Plus d’infos ici */
-/*
-position: absolute;
-width: 657px;
-height: 142px;
-left: 42px;
-top: 455px;
-
-font-family: Lato;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 20px;
-text-align: justify;
-
-color: #000000;
 */
 
 

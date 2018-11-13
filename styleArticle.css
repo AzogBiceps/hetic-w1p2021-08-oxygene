@@ -26,13 +26,8 @@ footer, header, hgroup, menu, nav, section {
 
 
 .yannLS {
-  position: absolute;
-  width: 448px;
-  height: 388px;
-  left: 892px;
-  top: 305px;
-  
-  background: url(yann.jpg), #C4C4C4;
+  position: 0,0;
+
   }
   
   .titrearticle{
@@ -53,3 +48,60 @@ footer, header, hgroup, menu, nav, section {
   
   text-shadow: 4px 10px 40px #000000;
   }
+
+  .banniere {
+    position: absolute;
+    width: 1366px;
+    height: 279px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(affiche_reseau_baby-sitting.jpg), #C4C4C4;
+    filter: blur(4px);
+    }
+    
+    .logohetic {
+    
+    position: absolute;
+    width: 90px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(logoshetic-carre-1512382497), #FEF1DE;
+    }
+    
+    .article1 .articletexte {
+    position: absolute;
+    width: 713px;
+    height: 193px;
+    left: 42px;
+    top: 309px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    text-align: left;
+    }
+    
+    /* Cela faisait longtemps que vous nous reclamiez ce type de service et enfin le voilà ! Plus besoin de perdre du temps 
+    sur des sites douteux, grace à nous obtener un service fiable grace à son experience il sera parfait pour s'occuper de 
+    vos enfants Plus d’infos ici */
+    /*
+    position: absolute;
+    width: 657px;
+    height: 142px;
+    left: 42px;
+    top: 455px;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    text-align: justify;
+    
+    color: #000000;
+    */
