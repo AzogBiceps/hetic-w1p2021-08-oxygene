@@ -282,34 +282,7 @@ text-align: justify;
 
 color: #000000;
 */
-.yannLS {
-position: absolute;
-width: 448px;
-height: 388px;
-left: 892px;
-top: 305px;
 
-background: url(yann.jpg), #C4C4C4;
-}
-
-.titrearticle{
-
-position: absolute;
-width: 508px;
-height: 59px;
-left: 42px;
-top: 163px;
-
-font-family: Lato;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-font-size: 40px;
-
-color: #000000;
-
-text-shadow: 4px 10px 40px #000000;
-}
 
 
  
