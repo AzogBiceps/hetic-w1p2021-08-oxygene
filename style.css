@@ -43,151 +43,151 @@ table {
 }
 
 
-/*nav {
-  position: fixed;
-  top: 15px;
-  left: 15px;
-  background-color: rgba(236, 236, 236, 0.5);
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  overflow: hidden;
-  transition: height 0.5s, width 0.5s, left 0.5s, top 0.5s, border-radius 0.3s;
-}
+  /*nav {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background-color: rgba(236, 236, 236, 0.5);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: height 0.5s, width 0.5s, left 0.5s, top 0.5s, border-radius 0.3s;
+  }
 
-nav.is-open {
-  height: 100vh;
-  width: 100vw;
-  border-radius: 0;
-  left: 0;
-  top: 0;
-}
+  nav.is-open {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0;
+    left: 0;
+    top: 0;
+  }
 
-.open {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  top: 15px;
-  left: 15px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  cursor: pointer;
-}
+  .open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
 
-.open-icon {
-  transition: background-color 0.3s;
-}
+  .open-icon {
+    transition: background-color 0.3s;
+  }
 
-.open-icon,
-.open-icon::before,
-.open-icon::after {
-  width: 30px;
-  height: 4px;
-  background: black;
-}
+  .open-icon,
+  .open-icon::before,
+  .open-icon::after {
+    width: 30px;
+    height: 4px;
+    background: black;
+  }
 
-.open-icon::before,
-.open-icon::after {
-  content: '';
-  display: block;
-  transition: transform 0.3s;
-}
+  .open-icon::before,
+  .open-icon::after {
+    content: '';
+    display: block;
+    transition: transform 0.3s;
+  }
 
-.open-icon::before {
-  transform: translateY(-8px);
-}
+  .open-icon::before {
+    transform: translateY(-8px);
+  }
 
-.open-icon::after {
-  transform: translateY(4px);
-}
+  .open-icon::after {
+    transform: translateY(4px);
+  }
 
-nav.is-open .open-icon {
-  background-color: transparent;
-}
+  nav.is-open .open-icon {
+    background-color: transparent;
+  }
 
-nav.is-open .open-icon::before {
-  transform: translateY(2px) rotate(45deg);
-}
+  nav.is-open .open-icon::before {
+    transform: translateY(2px) rotate(45deg);
+  }
 
-nav.is-open .open-icon::after {
-  transform: translateY(-2px) rotate(-45deg);
-}
+  nav.is-open .open-icon::after {
+    transform: translateY(-2px) rotate(-45deg);
+  }
 
-.menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
-  transform: translate(calc(-50vw + 40px), calc(50vh - 40px)) scale(0);
-  opacity: 0;
-  transition: transform 0.5s, opacity 0.3s;
-}
-
-nav.is-open ul {
-  transform: none;
-  opacity: 1;
-}
-
-nav:not(.is-open) ul {
-  pointer-events: none;
-}
-
-li {
-  font-size: 60px;
-  text-transform: uppercase;
-  font-family: Helvetica;
-}
-
-li:not(:last-child) {
-  margin-bottom: 20px;
-}
-
-@media (min-width: 600px) {
-  nav {
+  .menu {
+    position: fixed;
     top: 0;
     left: 0;
-    border-radius: 0;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    transform: translate(calc(-50vw + 40px), calc(50vh - 40px)) scale(0);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.3s;
   }
-  
-  nav.is-open {
-    height: 50px;
-  }
-  
-  .open {
-    display: none;
-  }
-  
-  .menu  {
-    position: static;
-    opacity: 1;
+
+  nav.is-open ul {
     transform: none;
-    height: 100%;
-    flex-direction: row;
-    justify-content: flex-end;
+    opacity: 1;
   }
-  
+
+  nav:not(.is-open) ul {
+    pointer-events: none;
+  }
+
   li {
-    font-size: 40px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: Helvetica;
   }
-  
+
   li:not(:last-child) {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
-} */
+
+  @media (min-width: 600px) {
+    nav {
+      top: 0;
+      left: 0;
+      border-radius: 0;
+      width: 100%;
+    }
+    
+    nav.is-open {
+      height: 50px;
+    }
+    
+    .open {
+      display: none;
+    }
+    
+    .menu  {
+      position: static;
+      opacity: 1;
+      transform: none;
+      height: 100%;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+    
+    li {
+      font-size: 40px;
+    }
+    
+    li:not(:last-child) {
+      margin-bottom: 0;
+    }
+  } */
 
 
 h1 {
   color: #168B36;
   font-family: 'latolight';
-  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: black 2px 2px 2px;
   text-align: center;
 }
 
@@ -198,23 +198,113 @@ h1 {
   height: 100vh;
   object-fit: cover; }
 
-.mySlides {
-  object-position: top center; }
+  .mySlides {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; }
+  
+  .mySlides {
+    object-position: top center; }
 
 
 .intro {
-color: #168B36;  
+color: #ffc400;
+text-shadow: 2px 2px 2px;   
 }
 
 
 
   
 /*
-jaune d'hétic: #f2b900
+jaune d'hétic: #ffc400
 fond noir d'hétic : #323232
 Gris background : #ececec 
 */
 
+/*Article 1 */
 
+/*Banniere
+position: absolute;
+width: 1366px;
+height: 279px;
+left: 0px;
+top: 0px;
+
+background: url(affiche_reseau_baby-sitting.jpg), #C4C4C4;
+filter: blur(4px);
+
+Logo TICHE
+
+position: absolute;
+width: 90px;
+height: 82px;
+left: 0px;
+top: 0px;
+
+background: url(logos_hetic-mini.png), #FEF1DE;
+
+/* Veuillez tous faire un accueil chaleureux a notre nouveau venu : "Yann LeScouarnec". Il a été validé par nos 
+modérateurs et permet a nos utilisateurs d'acceder a un tout nouveau service : le baby-sitting !*/ 
+/*
+position: absolute;
+width: 713px;
+height: 193px;
+left: 42px;
+top: 309px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+text-align: justify;
+
+color: #000000; */
+
+/* Cela faisait longtemps que vous nous reclamiez ce type de service et enfin le voilà ! Plus besoin de perdre du temps 
+sur des sites douteux, grace à nous obtener un service fiable grace à son experience il sera parfait pour s'occuper de 
+vos enfants Plus d’infos ici */
+/*
+position: absolute;
+width: 657px;
+height: 142px;
+left: 42px;
+top: 455px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+text-align: justify;
+
+color: #000000;
+/*Yann
+
+position: absolute;
+width: 448px;
+height: 388px;
+left: 892px;
+top: 305px;
+
+background: url(yann.jpg), #C4C4C4;
+
+/*titre/*
+
+position: absolute;
+width: 508px;
+height: 59px;
+left: 42px;
+top: 163px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+font-size: 40px;
+
+color: #000000;
+
+text-shadow: 4px 10px 40px #000000;
 
  
