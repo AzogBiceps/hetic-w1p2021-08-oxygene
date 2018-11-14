@@ -23,57 +23,83 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 @font-face {
   font-family: "Lato-Light";
   src: url("Lato-Light.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
+body {
+  font-family: "Lato-Light";
+}
 
-.banniere {
-  position:absolute;
-  width:1366px;
-  height:279px
+.titrebanniere {
+  position: absolute;
+width: 508px;
+height: 59px;
+left: 42px;
+top: 163px;
+font-size: 40px;
+color:white;
+}
+
+
+.banniere{
+height:300px;
+border-width:3px;
+border-style: solid;
+border-color:black;
+border-top-width: 0px;
+border-left-width: 0px;
+border-right-width: 0px;
 }
 
 .logohetic {
   position:absolute;
-  width: 90px;
-  height: 82px;
+  width: 92px;
+  height:82px;
+  top:5px;
+  left:5px;
 }
- 
-  .titrearticle{
-    position:absolute;
-    left: 42px;
-    top: 163px;
-    font-size: 40px;
-    text-shadow: 4px 10px 40px #000000;
+
+html {
+  background-color:#323232;
+}
+
+.link .articletexte2{
+  color:blue;
+  text-decoration: underline;
+}
+
+.texte {
+  display:flex;
+  max-width:713px;
+  color:white;
+}
+
+.articletexte1 {
+  font-size:20px;
+  margin-top:25px;
+  margin-left:28px;
+  line-break:strict;
+}
+.articletexte2{
+  margin-left:28px;
+  font-family:Lato;
+  font-size:20px;
+  margin-top:65px;
+}
+
+.yannLS {
+  float:right;
+  width: 300px;
+  height: 263px;
+  margin-right:30px;
+  margin-bottom:20px;
+  border-width:3px;
+  border-style: solid;
+  border-color:black;
   }
-    
 
-    
-  .articletexte1 {
-    left:42px;
-    bottom:218;
-    font-size: 20;
-    font-family:Lato;
-    text-align:justify;
-  }
 
-  .yannLS {
-    position:relative;
-    width: 448px;
-    height: 388px;
-    left: 892px;
-    top: 305px;
-    }
-
-  .articletexte2 {
-    left:42px;
-    bottom:123;
-    font-size: 20;
-    font-family: Lato;
-    text-align:justify;
-
-  }
-    
