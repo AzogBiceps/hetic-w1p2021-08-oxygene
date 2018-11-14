@@ -31,24 +31,28 @@ footer, header, hgroup, menu, nav, section {
   font-style: normal;
 }
 
-main {
-  display:grid;
-  grid-template-columns: (1fr 1fr);
-  grid-template-rows: (279px 1fr 1fr) ;
-
-
-}
 
 .banniere{
-width:100%;
 height:279px;
-filter: blur(5px);
 }
 
 .logohetic {
   position:absolute;
   width: 92px;
   height:82px;
+  top:0px;
+  left:0px;
+}
+
+.link{
+  color:blue;
+  text-decoration: underline;
+}
+
+.texte {
+  display:flex;
+  max-width:713px;
+  
 }
 
 .articletexte1 {
@@ -56,19 +60,19 @@ filter: blur(5px);
   font-size:20px;
   margin-top:50px;
   margin-left:28px;
-  background-color:teal;
   line-break:strict;
 }
 .articletexte2{
   margin-left:28px;
-  background-color:teal;
   font-family:Lato;
   font-size:20px;
+  margin-top:65px;
 }
 
 .yannLS {
-  margin-right:-892px;
 
 }
+
+
 
 
