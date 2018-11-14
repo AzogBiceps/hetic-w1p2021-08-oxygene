@@ -197,19 +197,22 @@ table {
 
 
   h1 {
-    color:#168B36;
-    font-family: "Lato-Light";
+    color: #168b37;
     text-align: center;
+    font-size: 35px;
+    width: 400px;
+		padding: 50px;
+		margin-left: 50px;
   }
   
 
   .intro {
-    color: #ffc400;  
+    color: white;
 		width: 300px;
-		padding: 50px;
-		margin-right: 50px;
+		padding: 150px;
+		margin-right: 150px;
     position: center;
-    font-size: 25px;
+    font-size: 35px;
 
     }
     
@@ -221,6 +224,7 @@ main {
 	display: flex;
 	justify-content: center;
   text-align: justify;
+  height: 750px;
 
 }
 
