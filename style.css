@@ -60,6 +60,10 @@ footer, header, hgroup, menu, nav, section {
   
 }
 
+.myaccount {
+  display: flex;
+  justify-content: flex-end;
+}
 
 
 
@@ -172,7 +176,7 @@ table {
   }
 
       
-  
+
 
   h1 {
     grid-column: 1;
@@ -443,6 +447,8 @@ li {
 
   .ya2 {
     width: 150px;
+    text-align: center;
+    display: flex;
   }
 
   .yl2 {
@@ -453,6 +459,9 @@ h2 {
 	font-family: "Lato-Light", sans-serif;
   font-size: 35px;
   color:#ffc400;
+  text-align: center;
+  display: flex;
+
 }
 
 
