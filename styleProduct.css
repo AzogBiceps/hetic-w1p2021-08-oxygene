@@ -34,6 +34,10 @@ html {
 	background-color:#323232;
 }
 
+body {
+  font-family:"Lato-Light", sans-serif;
+}
+
 
 
 .profilpic {
@@ -63,4 +67,8 @@ html {
 	margin-left:28px;
 	line-break:strict;
 	color:#168b37;
+}
+
+.rent {
+  margin-left:40vw;
 }
