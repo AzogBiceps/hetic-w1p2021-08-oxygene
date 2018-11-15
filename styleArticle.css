@@ -76,9 +76,12 @@ html {
   display:flex;
   max-width:713px;
   color:white;
-  border-width:3px;
-  border-style:solid;
-  border-color:#ffc400;
+  border-left:3px;
+  border-top:0px;
+  border-bottom:0px;
+  border-right:0px;  
+	border-style:solid;
+	border-color:#ffc400;
 }
 
 .articletext1 {
@@ -100,9 +103,6 @@ html {
   height: auto;
   margin-right:30px;
   margin-bottom:20px;
-  border-width:3px;
-  border-style: solid;
-  border-color:black;
 }
 
 @media (max-width: 700px) {
