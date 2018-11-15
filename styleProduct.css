@@ -83,12 +83,21 @@ body {
 	animation: fadeInUp 3s;
 }
 
-
+@media (max-width:700px) {
+	.textTop{
+		font-size:18px;
+		margin-top:50px;
+		margin-left:20%;
+		line-break:strict;
+		color:#168b37;
+		animation: fadeInUp  3s;
+	}
+}
 
 .textTop {
 	font-size:18px;
 	margin-top:50px;
-	margin-left:40%;
+	margin-left:50%;
 	line-break:strict;
 	color:#168b37;
 	animation: fadeInUp  3s;
