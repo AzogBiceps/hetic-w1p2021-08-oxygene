@@ -27,8 +27,25 @@ footer, header, hgroup, menu, nav, section {
   font-family: "Lato-Light";
   src: url("Lato-Light.ttf") format("ttf");
   font-weight: normal;
-  font-style: normal;
+	font-style: normal;
 }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+	}
+}
+
+
+
 
 html {
 	background-color:#323232;
@@ -42,9 +59,10 @@ body {
 
 .profilpic {
 	float:none;
-	width:300px;
-	height:300px;
-	margin-left:40vw;
+	width:10%;
+	height:auto;
+	margin-left:40%;
+	margin-right:40%;
 	margin-top:40px;
 }
 
@@ -62,7 +80,8 @@ body {
   border-right: 0px;  
 	border-style: solid;
   border-color: #ffc400;
-  padding: 9px;
+	padding: 9px;
+	animation: fadeInUp 3s;
 }
 
 
@@ -73,6 +92,7 @@ body {
 	margin-left:20%;
 	line-break:strict;
 	color:#168b37;
+	animation: fadeInUp 3s;
 }
 
 .rent {
