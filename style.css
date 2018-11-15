@@ -166,7 +166,15 @@ table {
     background-color:#323232;
   }
   
-  
+  .logac {
+    padding-top: 0px;
+            
+  }
+
+  .myaccount {
+    position: absolute;
+
+  }
   
   
 
@@ -402,7 +410,7 @@ li {
   border-left: solid;
   border-width: 10px;
   border-color: #232222;
-  top: 400px;
+  margin-top: 200px;
   }
 
 
@@ -425,6 +433,10 @@ li {
       top: 50%;
       margin-left: -170px;
       font-family:"Lato-Bold", sans-serif;         
+    }
+
+    .workk {
+        width: 80%;
     }
   }
 
@@ -456,3 +468,8 @@ li {
   .yl2 {
     width: 150px;
   }
+
+h2 {
+	font-family: "Lato-Light", sans-serif;
+  font-size: 45px;
+}
