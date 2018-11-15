@@ -56,7 +56,11 @@ footer, header, hgroup, menu, nav, section {
   padding-top: 8px;
   float: right;
   margin-right: 10px;
+  position: fixed;
+  
 }
+
+
 
 
 @keyframes fade-in-left {
@@ -162,9 +166,9 @@ table {
     background-color:#323232;
   }
   
-  .logac {
-    padding-top: O;    
-  }
+  
+  
+  
 
   h1 {
     grid-column: 1;
@@ -342,6 +346,10 @@ li {
     
   }
 
+  li:not(:last-child) {
+    margin-bottom: 0px;
+  }
+
   li {
     font-size: 17px;
     padding-top: 5px;
@@ -391,35 +399,60 @@ li {
   margin-left:auto;
   margin-right:auto;
   display: block;
-  -moz-box-shadow: 0px 0px 10px 2px #656565;
--webkit-box-shadow: 0px 0px 10px 2px #656565;
--o-box-shadow: 0px 0px 10px 2px #656565;
-box-shadow: 0px 0px 10px 2px #656565;
+  border-left: solid;
+  border-width: 10px;
+  border-color: #232222;
+  top: 400px;
   }
 
 
   .titlehome {
-    position:absolute;
-    margin-left:35vw;
-    margin-top:400px;
     font-size:150px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -170px;
     font-family:"Lato-Bold", sans-serif;    
   }
 
   @media (max-width:700px) {
     .titlehome {
-      position:absolute;
-      margin-left:8vw;
-      margin-top:400px;
-      font-size:120px;
+      font-size:100px;
+      width: 200px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -170px;
       font-family:"Lato-Bold", sans-serif;         
     }
   }
 
+ 
   /* .intro {
     animation: fadeInTop .5s both eas-out;
   } */
 
+  .bc2 {
+    width: 150px; 
+
+  }
+      
+    .image img {
+    display: none;
+    }
+  
+
+  .ag2 {
+    width: 150px; 
+  }
+      
 
 
+  .ya2 {
+    width: 150px;
+  }
 
+  .yl2 {
+    width: 150px;
+  }
