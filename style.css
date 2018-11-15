@@ -48,6 +48,7 @@ footer, header, hgroup, menu, nav, section {
   text-align: center;
   position: fixed;
   width: 100%;
+  z-index: 0;
 }
 
 .logac {
@@ -355,6 +356,8 @@ li {
     display: flex;
     justify-content: flex-end;
     margin: 0px;
+    z-index: 1;
+    
     
   }
 
