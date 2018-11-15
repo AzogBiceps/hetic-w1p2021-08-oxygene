@@ -95,8 +95,9 @@ body {
 }
 
 .rent {
+	width:auto;
+	height:100px;
 	margin-top:20px;
-	margin-right:30%;
 	margin-left:30%;
 	box-shadow: 10px 5px 5px black;
 }
