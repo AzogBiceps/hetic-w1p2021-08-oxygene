@@ -86,12 +86,12 @@ body {
 
 
 .textTop {
-	font-size:20px;
+	font-size:18px;
 	margin-top:50px;
 	margin-left:20%;
 	line-break:strict;
 	color:#168b37;
-	animation: fadeInUp 3s;
+	animation: fadeInUp  3s;
 }
 
 .rent {
