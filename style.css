@@ -112,6 +112,7 @@ table {
   font-size: 25px;
   animation: fade-in-left 3s;
   margin-top: 0px;
+  padding-top: 15px;
   
 }
 
@@ -121,7 +122,8 @@ table {
     margin-right: 35px;
     margin-left: 35px;
     display: flex;  
-    margin-top: 150px;
+    margin-top: 0px;
+    padding-top: 25px;
     animation: fade-in-right 3s forwards;
 }
 
@@ -360,6 +362,12 @@ li {
   object-fit: cover;
   object-position: top center;
   }
+
+
+
+
+
+
 
   /* .intro {
     animation: fadeInTop .5s both eas-out;

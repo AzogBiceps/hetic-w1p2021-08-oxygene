@@ -58,11 +58,10 @@ body {
 
 
 .profilpic {
-	float:none;
-	width:10%;
+	width:20%;
 	height:auto;
-	margin-left:40%;
 	margin-right:40%;
+	margin-left:40%;
 	margin-top:40px;
 }
 
