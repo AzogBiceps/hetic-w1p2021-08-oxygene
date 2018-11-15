@@ -65,22 +65,18 @@ body {
   padding: 9px;
 }
 
-.name {
-	color:#168b37;
-	font-size:20px;
-	margin-top:50px;
-	margin-left:28px;
-}
+
 
 .textTop {
 	font-size:20px;
 	margin-top:50px;
 	margin-left:28px;
 	line-break:strict;
-	color:white;
+	color:#168b37;
 }
 
 .rent {
   margin-top:20px;
-  margin-left:40%;
+	margin-left:40%;
+	box-shadow: 10px 5px 5px black;
 }
