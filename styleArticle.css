@@ -73,6 +73,8 @@ html {
 }
 
 .text {
+  display:flex;
+  max-width:713px;
   color:white;
 }
 
@@ -89,24 +91,17 @@ html {
   margin-top:65px;
 }
 
+.yannLS {
+  float: right;
+  width: 300px;
+  height: auto;
+  margin-right:30px;
+  margin-bottom:20px;
+  border-width:3px;
+  border-style: solid;
+  border-color:black;
+}
 
-@media (min-width: 700px) {
-
-
-.text {
-  display:flex;
-  max-width:713px;
-  }
-
-  .yannLS {
-    float: right;
-    width: 300px;
-    height: auto;
-    margin-right:30px;
-    margin-bottom:20px;
-    border-width:3px;
-    border-style: solid;
-    border-color:black;
-  }
-
+@media (max-width: 700px) {
+  
 }
