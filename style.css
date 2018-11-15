@@ -168,14 +168,10 @@ table {
   
   .logac {
     padding-top: 0px;
-            
+       
   }
 
-  .myaccount {
-    position: absolute;
-
-  }
-  
+      
   
 
   h1 {
@@ -216,7 +212,7 @@ table {
 }
 
 /*
-jaune d'hétic: #ffc400
+jaune d'hétic: 
 fond noir d'hétic : #323232
 Gris background : #ececec 
 */
@@ -401,19 +397,6 @@ li {
   object-position: top center;
   }
 
-  .workk {
-  width: 40%;
-  height: auto;
-  margin-left:auto;
-  margin-right:auto;
-  display: block;
-  border-left: solid;
-  border-width: 10px;
-  border-color: #232222;
-  margin-top: 200px;
-  }
-
-
   .titlehome {
     font-size:150px;
     width: 200px;
@@ -435,9 +418,6 @@ li {
       font-family:"Lato-Bold", sans-serif;         
     }
 
-    .workk {
-        width: 80%;
-    }
   }
 
  
@@ -471,5 +451,13 @@ li {
 
 h2 {
 	font-family: "Lato-Light", sans-serif;
-  font-size: 45px;
+  font-size: 35px;
+  color:#ffc400;
+}
+
+
+h3 {
+  font-family:"Lato-light", sans-serif;
+  font-size: 25px;
+  color:white;
 }
