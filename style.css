@@ -58,17 +58,15 @@ footer, header, hgroup, menu, nav, section {
   }
 }
 
-@-webkit-keyframes fade-in-right {
+@keyframes fade-in-right {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0);
     transform: translateX(200%);
     
   }
 
   to {
     opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     margin-top: 250px;
   }
@@ -124,7 +122,7 @@ table {
     margin-left: 35px;
     display: flex;  
     margin-top: 150px;
-    animation: fade-in-right 3s;   
+    animation: fade-in-right 3s forwards;
 }
 
 
@@ -165,7 +163,7 @@ table {
     margin-right: 150px;
     position: center;
     font-size: 35px;
-    animation: fade-in-right 3s;
+    animation: fade-in-right 3s forwards;
     min-width: 40px;
   } 
 
@@ -315,7 +313,7 @@ li {
     top: 0;
     left: 0;
     border-radius: 0;
-    width: calc(100vw - 50px);
+    width: 100vw;
     display: flex;
     justify-content: flex-end;
     margin: 0px;
@@ -363,6 +361,6 @@ li {
   object-position: top center;
   }
 
-  .intro {
+  /* .intro {
     animation: fadeInTop .5s both eas-out;
-  }
+  } */
