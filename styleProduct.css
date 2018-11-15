@@ -62,7 +62,7 @@ body {
   border-right: 0px;  
 	border-style: solid;
   border-color: #ffc400;
-  border-spacing: 2px;
+  padding: 2px;
 }
 
 .textTop {
@@ -74,5 +74,6 @@ body {
 }
 
 .rent {
-  margin-left:33%;
+  margin-top:20px;
+  margin-left:40%;
 }
