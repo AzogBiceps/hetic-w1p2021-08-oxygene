@@ -63,6 +63,7 @@ footer, header, hgroup, menu, nav, section {
 .myaccount {
   display: flex;
   justify-content: flex-end;
+  margin-right: 20px;
 }
 
 
@@ -172,8 +173,9 @@ table {
   
   .logac {
     padding-top: 0px;
-       
+    margin-right: 20px;
   }
+
 
       
 
@@ -475,4 +477,14 @@ h3 {
 a {
   text-decoration: none;
   color:#ffc400;
+}
+
+section {
+  margin-top: 500px;
+  margin-left: 40%;
+}
+
+.titleservices {
+  color: white;
+  text-align: center;
 }
