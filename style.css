@@ -216,7 +216,7 @@ table {
 }
 
 /*
-jaune d'hétic: 
+jaune d'hétic: #ffc400
 fond noir d'hétic : #323232
 Gris background : #ececec 
 */
@@ -380,7 +380,8 @@ li {
     height: 100%;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 40px;
+    margin-right: 100px;
+    padding-top: 14px;
   }
 
    
@@ -469,4 +470,9 @@ h3 {
   font-family:"Lato-light", sans-serif;
   font-size: 25px;
   color:white;
+}
+
+a {
+  text-decoration: none;
+  color:#ffc400;
 }
