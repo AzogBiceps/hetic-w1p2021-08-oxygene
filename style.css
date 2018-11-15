@@ -137,6 +137,8 @@ table {
   
 }
 
+
+
 .intro {
     color:white;
     font-size: 15px;
@@ -480,11 +482,27 @@ a {
 }
 
 section {
-  margin-top: 500px;
+  margin-top: 300px;
   margin-left: 40%;
 }
 
 .titleservices {
   color: white;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+
+.art1 {
+width:300px;    
+height:300px;
+margin-top: 100px;
+}
+
+.art2 {
+  width:500px;    
+  height:300px;
+  margin-top: 10px;
+  margin-left: -80px;
 }
