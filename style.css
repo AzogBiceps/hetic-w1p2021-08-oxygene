@@ -40,13 +40,24 @@ footer, header, hgroup, menu, nav, section {
 .logo {
   z-index: 100; 
   height: 50px;
+  padding-top: 10px;
+
 }
 
-a {
+.hetic {
   text-align: center;
   position: fixed;
   width: 100%;
 }
+
+.logac {
+  z-index: 100;
+  width: 63px;
+  padding-top: 8px;
+  float: right;
+  margin-right: 10px;
+}
+
 
 @keyframes fade-in-left {
   from  {
@@ -151,6 +162,10 @@ table {
     background-color:#323232;
   }
   
+  .logac {
+    padding-top: O;    
+  }
+
   h1 {
     grid-column: 1;
     grid-row: 1;
@@ -174,7 +189,7 @@ table {
     position: center;
     font-size: 35px;
     animation: fade-in-right 3s forwards;
-    min-width: 40px;
+    min-width: 181px;
   } 
 
   .logo {
@@ -352,7 +367,7 @@ li {
     margin-right: 40px;
   }
 
-  
+   
   .burger .nav {
     margin-left: 15px;
   }
@@ -370,8 +385,36 @@ li {
   object-position: top center;
   }
 
+  .workk {
+  width: 40%;
+  height: auto;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  -moz-box-shadow: 0px 0px 10px 2px #656565;
+-webkit-box-shadow: 0px 0px 10px 2px #656565;
+-o-box-shadow: 0px 0px 10px 2px #656565;
+box-shadow: 0px 0px 10px 2px #656565;
+  }
 
 
+  .titlehome {
+    position:absolute;
+    margin-left:35vw;
+    margin-top:400px;
+    font-size:150px;
+    font-family:"Lato-Bold", sans-serif;    
+  }
+
+  @media (max-width:700px) {
+    .titlehome {
+      position:absolute;
+      margin-left:8vw;
+      margin-top:400px;
+      font-size:120px;
+      font-family:"Lato-Bold", sans-serif;         
+    }
+  }
 
   /* .intro {
     animation: fadeInTop .5s both eas-out;
@@ -379,9 +422,4 @@ li {
 
 
 
-.descriptions {
-  display:flex;
-  flex-direction:row;
-  justify-content:space-between;
-}  
 
