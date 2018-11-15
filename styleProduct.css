@@ -70,5 +70,6 @@ body {
 }
 
 .rent {
-  margin-left:40vw;
+  display:flex;
+  justify-content:center;
 }
