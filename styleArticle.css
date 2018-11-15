@@ -35,7 +35,7 @@ body {
 }
 
 .titleBanner {
-  position: absolute;
+position: absolute;
 width: 508px;
 height: 59px;
 left: 42px;
@@ -73,8 +73,6 @@ html {
 }
 
 .text {
-  display:flex;
-  max-width:713px;
   color:white;
 }
 
@@ -95,7 +93,10 @@ html {
 @media (min-width: 700px) {
 
 
-
+.text {
+  display:flex;
+  max-width:713px;
+  }
 
   .yannLS {
     float: right;
