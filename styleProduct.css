@@ -31,3 +31,23 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
+.profilpic {
+	float:none;
+	margin-left:40vw;
+	margin-top:40px;
+}
+
+.text {
+	font-size:20px;
+  margin-top:25px;
+  margin-left:28px;
+	line-break:strict;
+	line-height:140%;
+}
+
+.textTop {
+	font-size:20px;
+	margin-top:200px;
+	margin-left:28px;
+  line-break:strict;
+}

@@ -31,17 +31,16 @@ footer, header, hgroup, menu, nav, section {
   font-style: normal;
 }
 body {
-  font-family: "Lato-Light";
+  line-height: 1;
+  font-family: "Lato-Light"
 }
 
-.titleBanner {
-  position: absolute;
-width: 508px;
-height: 59px;
-left: 42px;
-top: 163px;
-font-size: 40px;
-color:white;
+.title {
+	margin-top:25px;
+	margin-left:28px;
+	font-family: "Lato-Light";
+	font-size:30px;
+	color:#168b37;
 }
 
 
@@ -57,8 +56,8 @@ border-right-width: 0px;
 
 .logohetic {
   position:absolute;
-  width: 92px;
-  height:82px;
+  width: auto;
+  height:48px;
   top:5px;
   left:5px;
 }
@@ -67,7 +66,7 @@ html {
   background-color:#323232;
 }
 
-.link .articletext2{
+.link{
   color:blue;
   text-decoration: underline;
 }
@@ -79,33 +78,20 @@ html {
 }
 
 .articletext1 {
+  font-family:"Lato-Light", sans-serif;
   font-size:20px;
-  margin-top:25px;
+  margin-top:40px;
   margin-left:28px;
   line-break:strict;
+  line-height:140%;
 }
 .articletext2{
   margin-left:28px;
   font-family:Lato;
   font-size:20px;
-  margin-top:65px;
+  margin-top:40px;
+  margin-bottom:30px;
+  line-height:140%;
 }
 
 
-@media (min-width: 700px) {
-
-
-
-
-  .yannLS {
-    float: right;
-    width: 300px;
-    height: auto;
-    margin-right:30px;
-    margin-bottom:20px;
-    border-width:3px;
-    border-style: solid;
-    border-color:black;
-  }
-
-}

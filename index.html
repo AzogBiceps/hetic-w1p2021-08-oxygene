@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">                
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+        <link rel="script" href="index.js"/>
         
         <title>TICHE - Tendance Impérative à se Conduire en Héros Efficace</title>
         <style>
@@ -16,59 +18,62 @@
     <body>
 
         <header>
-            
+                
+                <nav class="nav" id="nav">
+                        <ul class="burger">
+                            <li class="account">Mon Compte</li>
+                            <li class="providers">Prestataires</li>
+                            <li class="articles">Articles</li>
+                        </ul>
+                        <div class="open" id="open">
+                            <div class="open-icon"></div>
+                        </div>
+                    </nav>
+
+            <a class="logo" href="tiche.netlify.com" img src="assets/images/logoshetic-carre-1512382497.png" alt="logo tiche"></a>  
             
         </header>
+
      <main>
         <div class="w3-content w3-section" style="max-width:100%">
-            <img class="mySlides" src="oldman.jpg" style="width:100%">
-            <img class="mySlides" src="brba.jpg" style="width:100%">
-            <img class="mySlides" src="fargoblood.jpg" style="width:100%">
+            <img class="mySlides" src="assets/images/oldman.jpg" style="width:100%">
+            <img class="mySlides" src="assets/images/brba.jpg" style="width:100%">
+            <img class="mySlides" src="assets/images/fargoblood.jpg" style="width:100%">
         </div>
           
-          <script>
-          var myIndex = 0;
-          carousel();
-          
-          function carousel() {
-              var i;
-              var x = document.getElementsByClassName("mySlides");
-              for (i = 0; i < x.length; i++) {
-                 x[i].style.display = "none";  
-              }
-              myIndex++;
-              if (myIndex > x.length) {myIndex = 1}    
-              x[myIndex-1].style.display = "block";  
-              setTimeout(carousel, 10000); // Change image every 2 seconds
-          }
-          </script>
-
+        <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel() {                    
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+        </script>
+        
             <div class="intros">
-                <h1>TICHE est là pour vous !</h1>
+                <h1>TICHE</h1>
 					
-            <div class="intro">
-                <p>Le groupe TICHE vous fournis les services dont vous avez besoins. Retrouvez nos intervenants phares, excellant dans leurs spécialités; ils sont prêts à vous guider et vous instruire, ou tout simplement répondre à vos besoins.</p>                 
-						</div> 
-					  </div>
+                <div class="intro">
+                    <p>Le groupe TICHE vous fournit les services dont vous avez besoin. Retrouvez nos prestataires phares, excellants dans leurs spécialités; ils sont prêts à vous guider et vous instruire, ou tout simplement répondre à vos envies !</p>                 
+                </div> 
+			</div>
         
             
-            <div><a href="produit1Bastien.html">Bcalou</a><a href="produit2Arthur.html">Arthur</a><a href="produit3yves.html">yves</a><a href="produit4Yann.html">yann</a><a href="article1.html">article1</a><a href="article2.html">article2                
-            </a></div>
-
-
-<!-- <script>
-  // Also can pass in optional settings block
-  var rellax = new Rellax('.mySlides', {
-    speed: -2,
-    center: false,
-    wrapper: null,
-    round: true,
-    vertical: true,
-    horizontal: false,
-  });
-</script> -->
-
-
+            <div><a href="product1Bastien.html">Bcalou</a>
+                <a href="product2Arthur.html">Arthur</a>
+                <a href="product3yves.html">yves</a>
+                <a href="product4Yann.html">yann</a>
+                <a href="article1.html">article1</a>
+                <a href="article2.html">article2</a>
+            </div>
 
 
 
@@ -81,6 +86,5 @@
         </footer>
     </body>
     <script type="text/javascript" src="index.js"></script>
-    <script type="text/javascript" src="animation.js"></script>
-    <script type="text/javascript" src="rellax.js"></script>
+
 </html>
