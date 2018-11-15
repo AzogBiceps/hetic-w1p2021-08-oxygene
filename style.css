@@ -40,15 +40,10 @@ footer, header, hgroup, menu, nav, section {
 .logo {
   z-index: 100; 
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
+  display: flex; 
+  left: 50%;
 }
 
-.logo img{
-  display: flex;
-  justify-content: center;
-}
 
 @keyframes fade-in-left {
   from  {
@@ -180,8 +175,6 @@ table {
     position: absolute;
     left: 20px;
     top: 0;
-
-  
   }
 }
 
