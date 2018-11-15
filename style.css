@@ -162,6 +162,7 @@ table {
     position: center;
     font-size: 35px;
     animation: fade-in-right 3s;
+    min-width: 40px;
   } 
 
   .logo {
@@ -335,6 +336,7 @@ li {
     height: 100%;
     flex-direction: row;
     justify-content: flex-end;
+    margin-right: 40px;
   }
 
   
