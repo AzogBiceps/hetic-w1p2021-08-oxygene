@@ -99,12 +99,20 @@ table {
 	border-spacing: 0;
 }
 
+.intros {
+  text-align: justify;
+  height: 750px;
+  background-color:#323232;
+  
+}
+
   h1 {
   color: #168b37;
   text-align: center;
   font-size: 25px;
   animation: fade-in-left 3s;
-  Margin-top: 25px;
+  margin-top: 0px;
+  
 }
 
 .intro {
@@ -117,12 +125,7 @@ table {
     animation: fade-in-right 3s;   
 }
 
-.intros {
-  text-align: justify;
-  height: 750px;
-  background-color:#323232;
-  
-}
+
 
 @media (min-width: 700px) {
   .intros {
@@ -158,7 +161,7 @@ table {
     width: 50%;
     padding-top: 300px;
     padding-top: 10px;
-    margin-right: 100px;
+    margin-right: 150px;
     position: center;
     font-size: 35px;
     animation: fade-in-right 3s;

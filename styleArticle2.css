@@ -38,7 +38,7 @@ body {
 .title {
 	margin-top:25px;
 	margin-left:28px;
-	font-family: "Lato-Light";
+	font-family:"Lato-Light", sans-serif;
 	font-size:30px;
 	color:#168b37;
 }
@@ -87,7 +87,7 @@ html {
 }
 .articletext2{
   margin-left:28px;
-  font-family:Lato;
+  font-family:"Lato-Light", sans-serif;
   font-size:20px;
   margin-top:40px;
   margin-bottom:30px;

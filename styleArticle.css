@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
   font-style: normal;
 }
 body {
-  font-family: "Lato-Light";
+  font-family:"Lato-Light", sans-serif;;
 }
 
 .titleBanner {
@@ -76,6 +76,9 @@ html {
   display:flex;
   max-width:713px;
   color:white;
+  border-width:3px;
+  border-style:solid;
+  border-color:#ffc400;
 }
 
 .articletext1 {
