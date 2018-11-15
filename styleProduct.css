@@ -88,7 +88,7 @@ body {
 .textTop {
 	font-size:18px;
 	margin-top:50px;
-	margin-left:20%;
+	margin-left:28%;
 	line-break:strict;
 	color:#168b37;
 	animation: fadeInUp  3s;
@@ -99,5 +99,4 @@ body {
 	height:100px;
 	margin-top:20px;
 	margin-left:30%;
-	box-shadow: 10px 5px 5px black;
 }
