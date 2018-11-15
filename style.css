@@ -125,6 +125,13 @@ table {
     display: flex;  
     margin-top: 0px;
     padding-top: 25px;
+    border-left: 3px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;  
+    border-style: solid;
+    border-color: #ffc400;
+    padding:9px;
     animation: fade-in-right 3s forwards;
 }
 
@@ -320,7 +327,10 @@ li {
     
   }
 
-
+  li {
+    font-size: 17px;
+    padding-top: 5px;
+  }
   
   .nav.is-open {
     height: 80px;
@@ -343,7 +353,6 @@ li {
   }
 
   
-  
   .burger .nav {
     margin-left: 15px;
   }
@@ -364,9 +373,15 @@ li {
 
 
 
-
-
-
   /* .intro {
     animation: fadeInTop .5s both eas-out;
   } */
+
+
+
+.descriptions {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+}  
+
