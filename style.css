@@ -37,7 +37,12 @@ footer, header, hgroup, menu, nav, section {
   src: url("assets/fonts/Lato-Bold.ttf") format("ttf")
 }
 
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
 
+}
 
 @keyframes fade-in-left {
   from  {
@@ -68,8 +73,6 @@ footer, header, hgroup, menu, nav, section {
     margin-top: 250px;
   }
 }
-
-
 
 
 body, main {
@@ -111,7 +114,7 @@ table {
     margin-left: 35px;
     display: flex;  
     margin-top: 150px;
-    animation: fade-in-right 3s;      
+    animation: fade-in-right 3s;   
 }
 
 .intros {
@@ -122,6 +125,19 @@ table {
 }
 
 @media (min-width: 700px) {
+  .intros {
+    display: grid;
+    grid-template-columns: (1fr, 2fr);
+    grid-template-rows: (1fr, 2fr);
+    grid-template-areas: 
+    "h1 h1"
+    "p p";
+                        
+    text-align: justify;
+    height: 750px;
+    background-color:#323232;
+  }
+  
   h1 {
     grid-column: 1;
     grid-row: 1;
@@ -142,24 +158,11 @@ table {
     width: 50%;
     padding-top: 300px;
     padding-top: 10px;
-    margin-right: 150px;
+    margin-right: 100px;
     position: center;
     font-size: 35px;
     animation: fade-in-right 3s;
-  }
-
-  .intros {
-    display: grid;
-    grid-template-columns: (1fr, 2fr);
-    grid-template-rows: (1fr, 2fr);
-    grid-template-areas: 
-    "h1 h1"
-    "p p";
-                        
-    text-align: justify;
-    height: 750px;
-    background-color:#323232;
-  }
+  } 
 }
 
 
@@ -291,17 +294,23 @@ li {
 }
 
 @media (min-width: 700px) {
+  header {
+    width: 100%;
+  }
+
   .nav {
     top: 0;
     left: 0;
     border-radius: 0;
     width: 100vw;
     display: flex;
-    justify-content: flex-end;    
+    justify-content: flex-end    
   }
+
+
   
   .nav.is-open {
-    height: 50px;
+    height: 80px;
     width: 100vw;
   }
   
