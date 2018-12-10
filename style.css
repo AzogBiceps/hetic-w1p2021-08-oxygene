@@ -48,7 +48,7 @@ footer, header, hgroup, menu, nav, section {
   text-align: center;
   position: fixed;
   width: 100%;
-  z-index: 0;
+  z-index: 100;
 }
 
 .logac {
@@ -439,19 +439,15 @@ li {
 
   .bc2 {
     width: 150px; 
-
   }
       
     .image img {
     display: none;
     }
   
-
   .ag2 {
     width: 150px; 
   }
-      
-
 
   .ya2 {
     width: 150px;
@@ -472,7 +468,6 @@ h2 {
 
 }
 
-
 h3 {
   font-family:"Lato-light", sans-serif;
   font-size: 25px;
@@ -486,7 +481,7 @@ a {
 
 section {
   margin-top: 300px;
-  margin-left: 40%;
+
 }
 
 .titleservices {
@@ -494,13 +489,12 @@ section {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 .art1 {
 width:300px;    
 height:300px;
-margin-top: 100px;
 }
 
 .art2 {
@@ -508,4 +502,16 @@ margin-top: 100px;
   height:300px;
   margin-top: 10px;
   margin-left: -80px;
+}
+
+article {
+  margin-bottom: 100px;
+}
+
+.bc2, .ya2, .ag2, .yl2, .link, .ag, .art1, .art2 {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 10px;
+  text-align: center;
 }

@@ -1,121 +1,126 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">                
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-        <link rel="script" href="index.js"/>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="script" href="index.js"/>
+    
+    <title>TICHE - Tendance Impérative à se Conduire en Héros Efficace</title>
+    <style>
+        .mySlides {display:none;}
+    </style>
+    
+</head>
+
+<body>
+    
+    <header>
         
-        <title>TICHE - Tendance Impérative à se Conduire en Héros Efficace</title>
-        <style>
-            .mySlides {display:none;}
-        </style>
-
-    </head>
-        
-    <body>
-
-        <header>
-                
-                <nav class="nav" id="nav">
-                        <ul class="burger">
-                            <li class="account">Mon Compte</li>
-                            <li>Prestataires</li>
-                            <li>Articles</li>
-                        </ul>
-                        
-
-                        <div class="open" id="open">
-                            <div class="open-icon"></div>
-                        </div>
-                    </nav>
-
-                    <a class="hetic" href="index.html"> <img class="logo" src="assets/images/logoshetic-carre-1512382497.png" alt="logo tiche"></a>
-                    
-                    <a class="myaccount" href=""> <img class="logac" src="assets/images/pictoconnection.png"  alt="logo account"></a>                                        
-                                       
+        <nav class="nav" id="nav">
+            <ul class="burger">
+                <li class="account">Mon Compte</li>
+                <li>Prestataires</li>
+                <li>Articles</li>
+            </ul>
             
-        </header>
-
-     <main>
+            
+            <div class="open" id="open">
+                <div class="open-icon"></div>
+            </div>
+        </nav>
+        
+        <a class="hetic" href="index.html"> <img class="logo" src="assets/images/logoshetic-carre-1512382497.png" alt="logo tiche"></a>
+        
+        <a class="myaccount" href=""> <img class="logac" src="assets/images/pictoconnection.png"  alt="logo account"></a>                                        
+        
+        
+    </header>
+    
+    <main>
         <p class="titlehome">TICHE</p> 
         <div class="w3-content w3-section" style="max-width:100%">
             <img class="mySlides" src="assets/images/oldman.jpg" style="width:100%">
             <img class="mySlides" src="assets/images/brba.jpg" style="width:100%">
             <img class="mySlides" src="assets/images/fargoblood.jpg" style="width:100%">
         </div>
-          
+        
         <script>
-                var myIndex = 0;
-                carousel();
-                
-                function carousel() {                    
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {                    
                 var i;
                 var x = document.getElementsByClassName("mySlides");
                 for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
+                    x[i].style.display = "none";  
                 }
                 myIndex++;
                 if (myIndex > x.length) {myIndex = 1}    
                 x[myIndex-1].style.display = "block";  
                 setTimeout(carousel, 2000); // Change image every 2 seconds
-                }
+            }
         </script>
         
-            <div class="intros">
-                <h1>TICHE</h1>	
-                <div class="intro">
-                    <p>Le groupe TICHE vous fournit les services dont vous avez besoin. Retrouvez nos prestataires phares, excellants dans leurs spécialités; ils sont prêts à vous guider et vous instruire, ou tout simplement répondre à vos envies !</p>                 
-                </div> 
-            </div>
+        <div class="intros">
+            <h1>TICHE</h1>	
+            <div class="intro">
+                <p>Le groupe TICHE vous fournit les services dont vous avez besoin. Retrouvez nos prestataires phares, excellants dans leurs spécialités; ils sont prêts à vous guider et vous instruire, ou tout simplement répondre à vos envies !</p>                 
+            </div> 
+        </div>
+        
+        
+        <h2 class="titleservices" >Ils sont là pour vous servir</h2>
+        <section>
+            
+            <article class="bc">
+                <img class="bc2" src="assets/images/bastien.png">
+                <h2><a class="link" href="product1Bastien.html">Bastien Calou</a></h2>
+                <h3 class="link">Coach en séduction supplément guitare</h3>
+            </article>
+            
+            <article class="ag">
+                <img class="ag2" src="assets/images/arthur.png">
+                <h2><a class="link" href="product2Arthur.html"> Arthur Guillermin</a></h2>
+                <h3 class="link">Docteur Influenceur</h3>
+            </article>
+            
+            <article class="ya">
+                <img class="ya2" src="assets/images/yves.png">
+                <h2><a class="link" href="product3Yves.html">Yves Amsellem</a></h2>
+                <h3 class="link">Coach Détente & Relaxation</h3>
+            </article>
+            
+            <article class="yl">
+                <img class="yl2" src="assets/images/yann.png">
+                <h2><a class="link" href="product4Yann.html">Yann Lescournec</a></h2>
+                <h3 class="link">Babysitter pour enfants en bas age</h3>
+            </article>
+        </section>
 
-
-            <h2 class="titleservices" >Ils sont là pour vous servir</h2>
-            <section>
-    
-                <article class="bc">
-                    <img class="bc2 head" src="assets/images/bastien.png">
-                    <h2><a href="product1Bastien.html">Bastien Calou</a></h2>
-                    <h3>Coach en séduction supplément guitare</h3>
-                </article>
-                
-                <article class="ag">
-                    <img class="ag2 head" src="assets/images/arthur.png">
-                    <h2><a href="product2Arthur.html"> Arthur Guillermin</a></h2>
-                    <h3>Docteur Influenceur</h3>
-                </article>
-
-                <article class="ya">
-                    <img class="ya2 head" src="assets/images/yves.png">
-                    <h2><a href="product3Yves.html">Yves Amsellem</a></h2>
-                    <h3>Coach Détente & Relaxation</h3>
-                </article>
-
-                <article class="yl">
-                    <img class="yl2 head" src="assets/images/yann.png">
-                    <h2><a href="product4Yann.html">Yann Lescournec</a></h2>
-                    <h3>Babysitter pour enfants en bas age</h3>
-                </article>                    
-                <article>
+    <h2 class="titleservices" >Suivez l'actu !</h2>
+        
+        <section>
+            <article>
                 <img class="art1" src="assets/images/yannstreet.jpeg">
-                <h2><a href="article1.html"> Un nouveau parmis nous!</a></h2>
-                </article>
-                <article>
-                    <img class="art2" src="assets/images/work.jpg">
-                    <h2><a href="article2.html"> L'histoire de TICHE!</a></h2>
-                   </article>
-            </section>
-            
-
-
-        </main>
-
-        <footer>
-            
-        </footer>
-    </body>
-    <script type="text/javascript" src="index.js"></script>
+                <h2><a class="link" href="article1.html"> Un nouveau parmis nous!</a></h2>
+            </article>
+            <article>
+                <img class="art2" src="assets/images/work.jpg">
+                <h2><a class="link" href="article2.html"> L'histoire de TICHE!</a></h2>
+            </article>
+        </section>
+        
+        
+        
+    </main>
+    
+    <footer>
+        
+    </footer>
+</body>
+<script type="text/javascript" src="index.js"></script>
 
 </html>
